@@ -14,8 +14,8 @@ demographics = colnames(df_zip_demographics)[2:ncol(df_zip_demographics)]
 shinyUI(fluidPage(
 
   titlePanel("Choroplethr Reference Map Toy"),
-  div(HTML("By <a href='http://www.arilamstein.com'>Ari Lamstein</a>.<br/>
-           Want to create apps like this? Take my free course <a href='http://www.arilamstein.com/free-course'>Learn to Map Census Data in R</a>.")),
+  div(HTML("By <a href='http://www.arilamstein.com'>Ari Lamstein</a>. <a href='http://wp.me/p6gp9f-le'>Blog post</a>. <a href='https://github.com/arilamstein/reference-map-toy/'>Code</a>.<br/><br/>
+           Want to create apps like this? Take my free course <a href='http://www.arilamstein.com/free-course'>Learn to Map Census Data in R</a>.<br/><br/>")),
   
   sidebarLayout(
     sidebarPanel(
